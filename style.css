@@ -69,13 +69,15 @@ h1{
 small{
 	font-size:16px;
 }
-
 .bgc1{
 	margin:0 auto;
 	text-align:center;
 	padding:25px;
 	background-color:#4E6169;
 	color:#f4f4f4;
+}
+.mls{
+	margin-left:10px;
 }
 .hidden-true{
 	display:none;
