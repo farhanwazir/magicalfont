@@ -12,6 +12,14 @@ body{
 	padding:0;
 	margin:0;
 }
+::selection{
+	background-color:#c00;
+	color:#fff;
+}
+::-moz-selection{
+	background-color:#c00;
+	color:#fff;
+}
 .mf{
 	font-size:25px;
 	vertical-align:middle;
@@ -37,8 +45,9 @@ body{
 }
 .mf[class*="frame-"][class*="-ol"]:hover:before,
 .mf[class*="frame-"]:hover:before,
+.glyph:hover .mf[class*="icon-"]:after,
 .mf[class*="frame-"][class*="-ol"]:hover:after{
-	color:#900;
+	color:#C00;
 }
 
 .mf[class*="icon-"]:before,
@@ -63,9 +72,14 @@ body{
 	display:inline-block;
 	min-width:25%;
 	padding:10px;
+	margin:3px;
+	border:solid 1px #CCC;
 }
-h1{
+.glyph:hover{
+	background-color:#f1f1f1;
+	color:#C00;
 }
+
 small{
 	font-size:11px;
 }
