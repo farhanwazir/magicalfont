@@ -18,6 +18,5 @@ For example:
 
 <h3>Credits</h3>
 Project Creator: Farhan Wazir<br />
-Contributor: XXXX<br /><br />
-
+Contributor: XXXX<br />
 If you contribute in this project then i will give you credit. Thank you
