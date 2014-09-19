@@ -9,6 +9,8 @@
 body{
 	font-family:Verdana, Geneva, sans-serif;
 	color:#4E6169;
+	padding:0;
+	margin:0;
 }
 .mf{
 	font-size:25px;
@@ -69,9 +71,11 @@ small{
 }
 
 .bgc1{
-	width:75%;
 	margin:0 auto;
-	text-align:center
+	text-align:center;
+	padding:25px;
+	background-color:#4E6169;
+	color:#f4f4f4;
 }
 .hidden-true{
 	display:none;
