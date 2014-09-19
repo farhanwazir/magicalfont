@@ -15,3 +15,9 @@ Add classes like "frame-xxx" and "icon-xxx" as defined in below code example. i.
 <h5>Three Level Expample</h5> 
 For example:
 <code>< span class="mf frame-xxx icon-xxx">< span class="mf icon-xxx">< /span>< /span></code>
+
+<h3>Credits</h3>
+Project Creator: Farhan Wazir
+Contributor: XXXX
+
+If you contribute in this project then i will give you credit. Thank you
