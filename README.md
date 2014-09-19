@@ -3,6 +3,8 @@ Magical Font
 <h4>Magical Font is scalable vector icons</h4>
 that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
 
+Preview: http://magicalfont.cideator.com
+
 <h3>Usage:</h3>
 It is very simple to use, you just need to add icon class in html element after adding "mf" class like in example: <code>< span class="mf icon-xxx" >< /span ></code>
 
