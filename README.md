@@ -17,7 +17,7 @@ For example:
 <code>< span class="mf frame-xxx icon-xxx">< span class="mf icon-xxx">< /span>< /span></code>
 
 <h3>Credits</h3>
-Project Creator: Farhan Wazir
-Contributor: XXXX
+Project Creator: Farhan Wazir<br />
+Contributor: XXXX<br /><br />
 
 If you contribute in this project then i will give you credit. Thank you
