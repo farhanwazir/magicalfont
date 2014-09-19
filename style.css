@@ -27,20 +27,20 @@ body{
 .mf[class*="frame-"][class*="-ol"]:after{
 	color:inherit;
 }
+.mf[class*="frame-"][class*="icon-"]:hover:after{
+	color:#fff;
+}
+
 /****** 2nd level *************/
 .mf[class*="icon-"] [class*="icon-"]:after{
 	color:#C00;
 }
-.mf[class*="frame-"]:hover:after{
-	color:#fff;
-}
 .mf[class*="frame-"][class*="-ol"]:hover:before,
-/*.mf[class*="-ol"]:hover:before,
-.mf[class*="-ol"]:hover:after,*/
-.mf[class*="frame-"][class*="-ol"]:hover:after,
-.mf[class*="icon-"]:hover:after{
+.mf[class*="frame-"]:hover:before,
+.mf[class*="frame-"][class*="-ol"]:hover:after{
 	color:#900;
 }
+
 .mf[class*="icon-"]:before,
 .mf[class*="icon-"]:after,
 .mf[class*="icon-"]:hover:after,
@@ -67,7 +67,7 @@ body{
 h1{
 }
 small{
-	font-size:16px;
+	font-size:11px;
 }
 .bgc1{
 	margin:0 auto;
@@ -78,6 +78,28 @@ small{
 }
 .mls{
 	margin-left:10px;
+}
+.multi-icons{
+	margin:0 auto;
+	max-width:73%;
+}
+.section-set td{
+	text-align:center;
+	padding:10px;	
+}
+.section-set div{
+	display:inline-block;
+	margin:20px;
+}
+.section-set small{
+}
+.section-set .mf{
+	font-size:75px;
+}
+xmp{
+	margin:10px auto;
+	background-color:#f1f1f1;
+	padding:15px;
 }
 .hidden-true{
 	display:none;
