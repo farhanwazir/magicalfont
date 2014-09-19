@@ -1,0 +1,62 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#4E6169;
+}
+.mf{
+	font-size:25px;
+	vertical-align:middle;
+	color:#4E6169;
+}
+.mf[class*="frame-"][class*="icon-"]:after{
+	color:#F4F4F4;
+}
+.mf.frame-triangle[class*="icon-"]:after,
+.mf.frame-triangle-ol[class*="icon-"]:after{
+	
+}
+.mf[class*="frame-"][class*="-ol"]:after{
+	color:inherit;
+}
+/****** 2nd level *************/
+.mf[class*="icon-"] [class*="icon-"]:after{
+	color:#C00;
+}
+.mf[class*="frame-"]:hover:after{
+	color:#fff;
+}
+.mf[class*="frame-"][class*="-ol"]:hover:before,
+/*.mf[class*="-ol"]:hover:before,
+.mf[class*="-ol"]:hover:after,*/
+.mf[class*="frame-"][class*="-ol"]:hover:after,
+.mf[class*="icon-"]:hover:after{
+	color:#900;
+}
+.mf[class*="icon-"]:before,
+.mf[class*="icon-"]:after,
+.mf[class*="icon-"]:hover:after,
+.mf[class*="icon-"]:hover:before{
+	-webkit-transition: color 500ms linear;
+    -moz-transition: color 500ms linear;
+    -o-transition: color 500ms linear;
+    -ms-transition: color 500ms linear;
+    transition: color 500ms linear;
+	cursor:pointer;
+}
+
+
+/* Layout */
+.contents{
+	width:90%;
+	margin:0 auto;
+}
+.glyph{
+	display:inline-block;
+	min-width:25%;
+	padding:10px;
+}
+.hidden-true{
+	display:none;
+}
+.hidden-false{
+	display:block;
+}
