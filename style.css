@@ -1,3 +1,11 @@
+/* 	
+	Project Name: MagicFont
+	Version: 1.0
+	Project Web: http://magicfont.com
+	Author: Farhan Wazir
+	Author Link: http://farhan.cideator.com
+	Documentation & Examples: http://magicfont.com
+*/
 body{
 	font-family:Verdana, Geneva, sans-serif;
 	color:#4E6169;
@@ -47,12 +55,23 @@ body{
 /* Layout */
 .contents{
 	width:90%;
-	margin:0 auto;
+	margin:40px auto;
 }
 .glyph{
 	display:inline-block;
 	min-width:25%;
 	padding:10px;
+}
+h1{
+}
+small{
+	font-size:16px;
+}
+
+.bgc1{
+	width:75%;
+	margin:0 auto;
+	text-align:center
 }
 .hidden-true{
 	display:none;
