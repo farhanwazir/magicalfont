@@ -1,7 +1,14 @@
 Magical Font
 ============
 <h4>Magical Font is scalable vector icons</h4>
-that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
+I proudly introduce 3Level customizable font, that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
+
+**What is 3Level?**
+
+Mostly you are using a single icon but with MagicalFont you can make a custom icon by using collection of icons of MagicalFont. You can say it a customization tool which control by css classes. Example is below:
+<code>
+<span class="mf frame-triangle-ol icon-car"><span class="mf icon-ban-slim"></span></span>
+</code>
 
 Follow <a href="https://twitter.com/magicalfont">@MagicalFont</a>
 
